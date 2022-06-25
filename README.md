@@ -9,19 +9,19 @@ This repository contains a preconfigured Windows Task Schedular configuration th
 After 15 seconds L-Connect is then closed automatically.
 
 # Installation
-The following instructions are for L-Connect 3, however for L-Connect 2 simple use the files with L-Connect 2 in the name instead.
+The following instructions are for L-Connect 3, however for L-Connect 2 simply use the files with L-Connect 2 in the name instead.
 
-* Download 'Start Stop L-Connect 3.xml' and 'startstop_lconnect3.bat' from this repository
-* Move the startstop_lconnect3.bat file into a memorable location. In this example it is "D:\Apps\"
-* Open Task Scheduler (you can search via the Windows start menu)
-* Right click on task schuedular library in the left hand panel
-* Select "Import Task"
-* Locate "Start Stop L-Connect 3.xml"
-* If you didnt use "D:\Apps" as your storage location for the script. Right click on the task scheduler entry named Start Stop L-Connect 3 and press properties
-* Navigate to the "Actions" tab
-* Click "edit" on the first entry
-* Replace "D:\Apps" with your location in the "Program/Script" and "Start in" fields.
-* Click ok and close the Window
+1. Download 'Start Stop L-Connect 3.xml' and 'startstop_lconnect3.bat' from this repository
+2. Move the startstop_lconnect3.bat file into a memorable location. In this example it is "D:\Apps\"
+3. Open Task Scheduler (you can search via the Windows start menu)
+4. Right click on task schuedular library in the left hand panel
+5. Select "Import Task"
+6. Locate "Start Stop L-Connect 3.xml"
+7. If you didnt use "D:\Apps" as your storage location for the script. Right click on the task scheduler entry named Start Stop L-Connect 3 and press properties
+8. Navigate to the "Actions" tab
+9. Click "edit" on the first entry
+10. Replace "D:\Apps" with your location in the "Program/Script" and "Start in" fields.
+11. Click ok and close the Window
 
 # Testing
 To test if your configuration is setup correctly, right click on the task schedular entry and press "Run".

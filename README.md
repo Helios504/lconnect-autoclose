@@ -24,6 +24,9 @@ The following instructions are for L-Connect 3, however for L-Connect 2 simply u
 11. Click ok and close the Window
 
 # Testing
-To test if your configuration is setup correctly, right click on the task schedular entry and press "Run".
+- To test if your configuration is setup correctly, right click on the task schedular entry and press "Run".
 You should see a command prompt window launch, L-Connect 3 should start up (hidden in the system tray). Then it should close 15 seconds later.
-Hopefully your RGB was configured during this time.
+- Alternatively you can reboot your PC and upon login L-Connect should start and then close.
+
+
+
